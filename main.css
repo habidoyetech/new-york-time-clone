@@ -84,7 +84,7 @@ span img {
    
     width: 75%;
 }
-figcaption {
+.cosmos1-details {
     text-align: left;
     padding-left: 155px;
     padding-right: 300px;
@@ -122,7 +122,7 @@ figcaption span {
 .article div {
     text-align: center;
 }
-.points-title h2,p {
+.points-title h2, .points-title p {
     display: inline;
     padding: 0em;
     margin: 0em;
@@ -132,11 +132,68 @@ figcaption span {
 }
 .points {
     background-color: white;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 20px;
+}
+.points-title {
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .points-list {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
+    display: flex;
+    
+}
+.pics {
+    width: 100%;
+    max-width: 250px;
+    
+}
+.fig {
+    display: inline;
+}
+.cosmos2{
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+.footer {
+    background: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+.head-footer {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    border-top: 6px double hsla(60, 8%, 91%, 1);
+}
+.homepage {
+    text-decoration: none;
+    color: #395F82;
+    font-size: 0.8rem;
+}
+ul {
+    list-style-type: none;
+   
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+
+li {
+    padding: 5px 60px 5px 0px;
+    font-family:  'times new roman',times,serif;
+    font-size: 0.85rem;
+    width: 100%;
+}
+.list {
+    display: flex;
 }
