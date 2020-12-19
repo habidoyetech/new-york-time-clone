@@ -284,3 +284,25 @@ li {
 #subscribe {
     border-left: 1px solid hsla(60, 8%, 91%, 1);
 }
+.content-footer {
+    font-size: small;
+    color: grey;
+    text-align: left;
+}
+.content-end-button {
+    padding: 10px 50px;
+    margin-right: 120px;
+    margin-top: 20px;
+    vertical-align: bottom;
+    background-color: steelblue;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 47%;
+    border: steelblue;
+}
+.content-end-button:hover {
+    background-color: #1069ad;
+}
+
+
